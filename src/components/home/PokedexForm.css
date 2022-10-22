@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Login__Container {
+  background: url(https://media-s3-us-east-1.ceros.com/hype-beast/images/2018/07/13/a9a51bc0b8d626db493ab5f9a971b043/background-hero.png?imageOpt=1&fit=bounds&width=2163);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  align-content: stretch;
+}
+
+.Login__Container h1 {
+  color: #f1c40f;
+  text-shadow: 0 0 10px #111;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 160px;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.Login__Container img {
+  height: 900px;
+  width: auto;
+  margin-top: -500px;
+}
+.Login__Container h2 {
+  color: #fff;
+  text-shadow: 0 0 10px #111;
+  font-weight: 400;
+  font-size: 60px;
+  margin-left: 710px;
+}
+.Login__Container h2 span {
+  color: #e74c3c;
+  font-weight: 600;
+  font-size: 60px;
+  text-shadow: 0 0 10px #111;
+}
+
+.pokedex__form input {
+  color: #fff;
+  font-size: 16px;
+  width: 780px;
+  height: 52px;
+  padding: 5px;
+  background: transparent;
+  border: solid 2px #fff;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.pokedex__form input:hover {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.7);
+  transition: 0.7s;
+}
+
+.pokedex__form ::placeholder {
+  color: #fff;
+}
+
+.pokedex__btn {
+  color: #fff;
+  background-color: #c31432;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  font-size: 40px;
+  padding: 12px;
+  cursor: pointer;
+}
+.Login__container-form {
+  margin-left: 700px;
+}
+
+.pokedex__btn:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  transition: 0.7s;
+  color: #000;
+}
+
+@media (max-width: 425px) {
+  .Login__Container {
+    width: 100vh;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container h1 {
+    font-size: 90px;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container img {
+    width: 400px;
+    height: auto;
+    margin-top: 80px;
+    position: relative;
+    display: grid;
+    place-content: center;
+    bottom: 80px;
+    right: 200px;
+  }
+  .Login__Container h2 {
+    color: #fff;
+    text-shadow: 1px 1px 10px #111;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 0px;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container h2 span {
+    color: #e74c3c;
+    font-weight: 600;
+    font-size: 42px;
+    text-shadow: 1px 1px 10px #111;
+    display: grid;
+    place-content: center;
+  }
+  .pokedex__form input {
+    color: #fff;
+    width: 380px;
+    height: 62px;
+    padding: 0px;
+    background: transparent;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+  }
+  .pokedex__form{
+    display: grid;
+    place-content: center;
+  }
+
+  
+  .pokedex__btn {
+    color: #fff;
+    background-color: #c31432;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+  }
+  .Login__container-form {
+    margin-left: 0px;
+  }
+  .Login__Container-information{
+    width: 100vh;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .Login__Container {
+    width: 100vh;
+    height: 250vh;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container h1 {
+    font-size: 80px;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container img {
+    width: 600px;
+    height: auto;
+    margin-top: 80px;
+    position: relative;
+    display: grid;
+    place-content: center;
+    bottom: 80px;
+    left: 100px;
+  }
+  .Login__Container h2 {
+    color: #fff;
+    text-shadow: 1px 1px 10px #111;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 0px;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container h2 span {
+    color: #e74c3c;
+    font-weight: 600;
+    font-size: 42px;
+    text-shadow: 1px 1px 10px #111;
+    display: grid;
+    place-content: center;
+  }
+  .pokedex__form input {
+    color: #fff;
+    width: 380px;
+    height: 62px;
+    padding: 0px;
+    background: transparent;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+  }
+  .pokedex__form{
+    display: grid;
+    place-content: center;
+  }
+
+  
+  .pokedex__btn {
+    color: #fff;
+    background-color: #c31432;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+  }
+  .Login__container-form {
+    margin-left: 0px;
+  }
+  .Login__Container-information{
+    width: 100vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Login__Container {
+    width: 120vh;
+    height: 150vh;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container h1 {
+    font-size: 100px;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container img {
+    width: 600px;
+    height: auto;
+    margin-top: 80px;
+    position: relative;
+    display: grid;
+    place-content: center;
+    bottom: 80px;
+    left: 100px;
+  }
+  .Login__Container h2 {
+    color: #fff;
+    text-shadow: 1px 1px 10px #111;
+    font-weight: 400;
+    font-size: 40px;
+    margin-left: 0px;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container h2 span {
+    color: #e74c3c;
+    font-weight: 600;
+    font-size: 52px;
+    text-shadow: 1px 1px 10px #111;
+    display: grid;
+    place-content: center;
+  }
+  .pokedex__form input {
+    color: #fff;
+    width: 480px;
+    height: 62px;
+    padding: 0px;
+    background: transparent;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+  }
+  .pokedex__form{
+    display: grid;
+    place-content: center;
+  }
+
+  
+  .pokedex__btn {
+    color: #fff;
+    background-color: #c31432;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+  }
+  .Login__container-form {
+    margin-left: 0px;
+  }
+  .Login__Container-information{
+    width: 100vh;
+  }
+}
+@media (max-width: 1440px) {
+  .Login__Container {
+    width: 200vh;
+    height: 150vh;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container h1 {
+    font-size: 100px;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container img {
+    width: 600px;
+    height: auto;
+    margin-top: 80px;
+    position: relative;
+    display: grid;
+    place-content: center;
+    bottom: 80px;
+    left: 100px;
+  }
+  .Login__Container h2 {
+    color: #fff;
+    text-shadow: 1px 1px 10px #111;
+    font-weight: 400;
+    font-size: 40px;
+    margin-left: 0px;
+    display: grid;
+    place-content: center;
+  }
+  .Login__Container h2 span {
+    color: #e74c3c;
+    font-weight: 600;
+    font-size: 52px;
+    text-shadow: 1px 1px 10px #111;
+    display: grid;
+    place-content: center;
+  }
+  .pokedex__form input {
+    color: #fff;
+    width: 480px;
+    height: 62px;
+    padding: 0px;
+    background: transparent;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    display: grid;
+    place-content: center;
+    margin-top: 20px;
+  }
+  .pokedex__form{
+    display: grid;
+    place-content: center;
+  }
+
+  
+  .pokedex__btn {
+    color: #fff;
+    background-color: #c31432;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    font-size: 40px;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+  }
+  .Login__container-form {
+    margin-left: 0px;
+  }
+  .Login__Container-information{
+    width: 100vh;
+  }
+}

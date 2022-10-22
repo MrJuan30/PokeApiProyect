@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+}
+
+.PokeCard__Container {
+    margin-top: 40px;
+  display: grid;
+  place-content: center;
+  grid-template-columns: auto auto auto auto;
+  place-content: center;
+}
+
+.PokeCard__Card {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 0 10px #333;
+  height: 480px;
+  width: 350px;
+  margin: 15px;
+  padding-top: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.PokeCard__Card:hover {
+    transform: translateY(-5px) scale(1.05) translateZ(0);
+}
+
+
+.PokeCard__Name {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  text-shadow: 2px 2px 1px #213547;
+  display: grid;
+  place-content: center;
+}
+
+.Pokemon__Image {
+  width: 150px;
+  height: 150px;
+  display: grid;
+  place-content: center;
+}
+.PokeCard__List-types {
+  color: #fff;
+}
+
+.PokeCard__List-types li {
+  color: #2c3e50;
+  display: inline;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #333;
+}
+.PokeCard__List-types li:nth-child(3)::before {
+  content: " / ";
+  margin: 5px;
+}
+.PokeCard__List-types p {
+  color: rgba(0, 0, 0, 0.5);
+  display: grid;
+  place-content: center;
+  font-size: 20px;
+}
+
+.Pokecard__Info {
+  background: rgba(0, 0, 0, 0.55);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  width: 100%;
+  height: 50%;
+  color: #fff;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  place-content: center;
+}
+
+.Pokecard__Container-stats{
+  display: grid;
+  grid-template-columns: auto auto;
+  place-content: center;
+}
+
+.Pokecard__Types-titles{
+    display: grid;
+    place-content: center;
+    color: rgba(255, 255, 255, .7);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.Pokecard__Container-stats-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+}
+.Pokecard__Container-stats{
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+}
+.stat__name{
+    color: rgba(255, 255, 255, .7);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 200;
+    display: grid;
+    place-content: center;
+}
+
+.stat__value{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    display: grid;
+    place-content: center;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+
+/*CARD COLORS*/
+
+
+.bg-grass{
+    background: rgba(62, 178, 59, 0.6);
+}
+
+.bg-fire{
+  background: rgba(192, 79, 50, 0.6);;
+}
+.bg-water{
+  background: rgba(139, 172,246, 0.6);
+}
+.bg-normal{
+  background: rgba(174, 0, 255, 0.5);
+}
+.bg-fighting{
+  background: rgba(238, 131,40, 0.6);
+}
+.bg-bug{
+  background: linear-gradient(to right,rgba(135, 152, 153, 0.6), rgba(202,228,229, 0.6));
+}
+.bg-poison{
+  background: linear-gradient(to right,rgba(154, 65, 160, 0.6), rgba(0,0,0, 0.2));
+}
+.bg-ground{
+  background: linear-gradient(to right,rgba(230, 118, 73, 0.6), rgba(102,52,32, 0.6));
+}
+.bg-rock{
+  background: linear-gradient(to right,rgba(130, 130, 131, 0.6), rgba(79,79,79, 0.6));
+}
+
+.bg-ghost{
+  background: linear-gradient(to right,rgba(90, 74, 156, 0.6), rgba(134,110,232, 0.6));
+}
+.bg-steel{
+  background: linear-gradient(to right,rgba(103, 111, 114, 0.6), rgba(95,118,169, 0.6));
+}
+.bg-electric{
+  background: linear-gradient(to right,rgba(75, 146, 156, 0.6), rgba(0,0,0, 0.3));
+}
+
+.bg-psychic{
+  background: linear-gradient(to right,rgba(62, 178, 59, 0.6), rgba(180,350, 0, 0.6));
+}
+.bg-ice{
+  background: linear-gradient(to right,rgba(173, 192, 233, 0.6), rgba(255, 255, 255, 0.7));
+}
+.bg-dragon{
+  background: linear-gradient(to right,rgba(231, 76, 60, 0.6), rgba(41, 128, 185, 0.5));
+}
+.bg-dark{
+  background: linear-gradient(to right,rgba(44, 62, 80, 0.6), rgba(0, 0, 0, 0.4));
+}
+.bg-fairy{
+  background: linear-gradient(to right,rgba(142, 68, 173, 0.7), rgba(52, 152, 219, 0.4));
+}

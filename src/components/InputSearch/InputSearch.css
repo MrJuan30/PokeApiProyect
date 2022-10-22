@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Input__Container{
+  background: rgba(83, 83, 83, 0.45);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 700px;
+  height: 180px;
+  display: grid;
+  place-content: center;
+  margin-bottom: 100px;
+  padding: 20px;
+}
+
+.Form__Container {
+  position: relative;
+  right: 210px;
+}
+
+.TextSearch__Input {
+  width: 280px;
+  height: 60px;
+  border: none;
+  font-size: 25px;
+  padding: 10px;
+  display: grid;
+  place-content: center;
+  display: block;
+  margin: 0;
+  border: none;
+  border-radius: 0.4rem;
+  border-radius: 40px;
+}
+
+.Btn_search{
+  position: absolute;
+  width: 90px;
+  height: 92px;
+  top: -5px;
+  left: 250px;
+  border-radius: 50px;
+  background:  #333333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.Btn_search:hover{
+  background: #272727;
+}
+
+.InputType__Container{
+  position: absolute;
+  display: grid;
+  place-content: center;
+  top: 580px;
+  right: 600px;
+  margin: 0;
+}
+
+.InputType-Select{
+  width: 300px;
+  height: 60px;
+  padding: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  display: grid;
+  place-content: center;
+  border-radius: 20px;
+  border-color: #000;
+  color: #333333;
+  position: relative;
+}
+
+@media (min-width: 320px) and (max-width:1024px) {
+  .Input__Container {
+    width: 600px;
+    height: 180px;
+    display: grid;
+    place-content: center;
+    margin-bottom: 100px;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .Form__Container {
+    position: relative;
+    bottom: 60px;
+    left: 1px;
+    display: grid;
+    place-content: center;
+  }
+  
+  .TextSearch__Input {
+    width: 300px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+    display: grid;
+    place-content: center;
+    display: block;
+    margin: 0;
+    border: none;
+    border-radius: 0.4rem;
+    border-radius: 40px;
+  }
+  
+  .Btn_search{
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    top: 2px;
+    left: 260px;
+    border-radius: 50px;
+    background:  #333333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  .Btn_search:hover{
+    background: #272727;
+  }
+  
+  .InputType__Container{
+    position: absolute;
+    display: grid;
+    place-content: center;
+    top: 600px;
+    left: 430px;
+  }
+  
+  .InputType-Select{
+    width: 300px;
+    height: 60px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: grid;
+    place-content: center;
+    border-radius: 20px;
+    border-color: #000;
+    color: #333333;
+  }
+  
+}
+
+
