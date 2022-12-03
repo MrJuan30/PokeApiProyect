@@ -319,7 +319,7 @@
 
 /*MEDIA QUERIES*/
 
-@media (min-width: 320px) and (max-width:1024px) {
+@media (min-width: 320px) and (max-width:1440px) {
   .PokemonById {
     width: 100vh;
     height: 100vh;

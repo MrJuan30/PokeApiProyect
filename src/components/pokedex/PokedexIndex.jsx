@@ -36,7 +36,6 @@ const PokedexIndex = () => {
     }
   }, [TypeSelected]);
 
-
   return (
     <article>
       {pokemons ? (
@@ -62,8 +61,10 @@ const PokedexIndex = () => {
             </motion.div>
           </div>
           <div className="InputSearch__Container">
-            <InputSearch />
-            <SelectByType setTypeSelected={setTypeSelected} />
+            <div className="Inputs__Container">
+              <InputSearch />
+              <SelectByType setTypeSelected={setTypeSelected} />
+            </div>
           </div>
           <div className="Cards__container">
             {pokemons?.slice(initialPoke, finalPoke).map((pokemon) => (

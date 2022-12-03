@@ -16,7 +16,9 @@
   height: 180px;
   display: grid;
   place-content: center;
-  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 10px;
   padding: 20px;
 }
 
@@ -57,12 +59,10 @@
 }
 
 .InputType__Container{
-  position: absolute;
-  display: grid;
-  place-content: center;
-  top: 580px;
-  right: 600px;
+  position: relative;
   margin: 0;
+  bottom: 150px;
+  left: 380px;
 }
 
 .InputType-Select{
@@ -76,10 +76,9 @@
   border-radius: 20px;
   border-color: #000;
   color: #333333;
-  position: relative;
 }
 
-@media (min-width: 320px) and (max-width:1024px) {
+@media (min-width: 320px) and (max-width:1440px) {
   .Input__Container {
     width: 600px;
     height: 180px;

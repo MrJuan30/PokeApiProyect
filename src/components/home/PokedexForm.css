@@ -180,7 +180,7 @@
 @media (max-width: 768px) {
   .Login__Container {
     width: 100vh;
-    height: 250vh;
+    height: 100vh;
     display: grid;
     place-content: center;
   }
@@ -260,8 +260,8 @@
 
 @media (max-width: 1024px) {
   .Login__Container {
-    width: 120vh;
-    height: 150vh;
+    width: 100vh;
+    height: 100vh;
     display: grid;
     place-content: center;
   }
@@ -340,13 +340,14 @@
 }
 @media (max-width: 1440px) {
   .Login__Container {
-    width: 200vh;
-    height: 150vh;
+    width: 100vh;
+    height: 100vh;
     display: grid;
     place-content: center;
+    padding-top: 100px;
   }
   .Login__Container h1 {
-    font-size: 100px;
+    font-size: 50px;
     position: relative;
     margin-left: 0px;
     margin-top: 0px;
@@ -354,20 +355,20 @@
     place-content: center;
   }
   .Login__Container img {
-    width: 600px;
+    width: 35vh;
     height: auto;
     margin-top: 80px;
     position: relative;
     display: grid;
     place-content: center;
     bottom: 80px;
-    left: 100px;
+    left: 250px;
   }
   .Login__Container h2 {
     color: #fff;
     text-shadow: 1px 1px 10px #111;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 0px;
     display: grid;
     place-content: center;
@@ -375,14 +376,14 @@
   .Login__Container h2 span {
     color: #e74c3c;
     font-weight: 600;
-    font-size: 52px;
+    font-size: 42px;
     text-shadow: 1px 1px 10px #111;
     display: grid;
     place-content: center;
   }
   .pokedex__form input {
     color: #fff;
-    width: 480px;
+    width: 290px;
     height: 62px;
     padding: 0px;
     background: transparent;
@@ -408,8 +409,8 @@
     border-radius: 50px;
     font-size: 40px;
     cursor: pointer;
-    position: relative;
-    left: 100px;
+    display: grid;
+    place-content: center;
   }
   .Login__container-form {
     margin-left: 0px;

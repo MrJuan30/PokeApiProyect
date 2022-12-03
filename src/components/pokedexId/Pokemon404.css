@@ -12,14 +12,13 @@
   align-items: center;
   background: url(https://images7.alphacoders.com/592/592678.jpg);
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
-  margin-top: -60px;
 }
 
 .Error__Info{
@@ -35,20 +34,20 @@
     padding: 20px;
 }
 .Error__Container h1 {
-  font-size: 80px;
+  font-size: 8vh;
 }
 .Error__Container img {
   display: grid;
   place-content: center;
-  width: 600px;
-  height: 600px;
+  width: 50vh;
+  height: auto;
   position: relative;
-  left: 200px;
+  left: 18vh;
 }
 .Btn__Back{
   width: 100%;
-  height: 80px;
-  font-size: 50px;
+  height: 10vh;
+  font-size: 5vh;
   background-color: rgba(168, 0, 0, 0.45);
 }
 
